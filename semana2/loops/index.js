@@ -29,42 +29,41 @@ console.log(arrayBichinhos)
 // 2.
 // a)
 const array1 = [9, 34, 40, 60, 180, 70, 120, 90, 103, 110, 55]
-const array2 = [9, 34, 40, 60, 180, 70, 120, 90, 103, 110, 55]
 let arrayPares = []
 let arrayStrings = []
 let maior = 0
 let menor = 10000
-for(i=0; i<array1.length; i++){
-    console.log(array1[i])
+for(i=0; i<array.length; i++){
+    console.log(array[i])
 }
 //b)
-for(i=0; i<array1.length; i++){
-    console.log(array1[i]/10)
+for(i=0; i<array.length; i++){
+    console.log(array[i]/10)
 }
 
 //c)
-for(i=0; i<array1.length; i++){
+for(i=0; i<array.length; i++){
     
-    if(array1[i] % 2 === 0){
-        arrayPares.push(array1[i])
+    if(array[i] % 2 === 0){
+        arrayPares.push(array[i])
     }
 }
 console.log(arrayPares)
 
 //d)
-for(i=0; i<array1.length; i++){
+for(i=0; i<array.length; i++){
     
-        arrayStrings.push(`O elemento do index ${i} é: ${array1[i]}`)
+        arrayStrings.push(`O elemento do index ${i} é: ${array[i]}`)
 
 }
 console.log(arrayStrings)
 
 //e)
-for(i=0; i<array1.length; i++){
-    if(array1[i] > maior){
-        maior = array1[i]
-    } else if(array2[i] < menor){
-        menor = array2[i]
+for(i=0; i<array.length; i++){
+    if(array[i] < menor){
+        menor = array[i]
+    } else if(array[i] > maior){
+        maior = array[i]
     }
 } 
 console.log(maior)
