@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*header*/
+header {
+    background-color:mediumvioletred ;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > button {
+    width: 50px;
+    margin-right: 20px;
+}
+
+.foto-bolinho > img{
+    width: 25px;
+    height: 25px;
+    margin-top: 4px;
+}
+
+.foto-bolinho {
+    display: flex;
+    padding: 20px;
+}
+
+.foto-bolinho > h1 {
+    margin-left: 20px;
+}
+
+footer {
+    height: 70px;
+    background-color: mediumvioletred;
+}
+
+/* main */
+
+.div-conteudo {
+    display: flex;
+    height: 100vh;
+}
+
+.menu > img {
+    height: 25px;
+    width: 25px;
+}
+
+.navegacao {
+    background-color: #f2d0e0;
+    width: 400px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.menu > p {
+    margin-right: 150px;
+}
+
+.fotos-bolos {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    padding: 20px;
+}
+
+.cards > img {
+    width: 300px;
+    height: 300px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: darkgray;
+    height: 380px;
+}
+.cards > p {
+    align-items: center;
+    justify-content: center;
+}
+
+.casinha > img{
+    height: 25px;
+    width: 25px;
+}
+
+.casinha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.casinha > p  {
+    margin-left: 50px;
+}
+/*footer*/
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
