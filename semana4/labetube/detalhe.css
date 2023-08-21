@@ -47,3 +47,23 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
+@media screen and (min-device-width:320px) and (max-device-width:480px){
+    header{
+        width: 100vw;
+    }
+    footer{
+        width: 100vw;
+        height: auto;
+    }
+    footer>h1 {
+        margin-left: 32px;
+    }
+    main{
+        height: 500px;
+    }
+    .card > video {
+        height: 40vh;
+        width: 70vw;
+    }
+}
