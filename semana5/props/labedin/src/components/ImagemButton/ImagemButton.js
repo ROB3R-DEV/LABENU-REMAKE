@@ -1,0 +1,29 @@
+import React from 'react';
+import './ImagemButton.css'
+
+const EstImagemButton =styled.div `
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 50px;
+    width: 200px;
+    padding: 15px 30px;
+    margin: 10px auto;
+`
+
+const ImgEstImagemButton= styled.EstImagemButton > img`
+    width: 30px;
+    margin-right: 10px;
+`
+
+
+function ImagemButton(props) {
+    return (
+        <EstImagemButton>
+            <ImgEstImagemButton src={ props.imagem }/>
+            <p>{ props.texto }</p>
+        </EstImagemButton>
+    )
+}
+
+export default ImagemButton;
