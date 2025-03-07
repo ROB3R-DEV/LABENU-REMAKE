@@ -26,22 +26,30 @@ console.log(filmeSuperMario, nao)
 //exercicio 2
 let a = 10
 let b = 25
-let c = 10
+let c = 25
 
-a=b
-b=c
+b=a
+a=c
 
 console.log("O novo valor de a é", a) 
 console.log("O novo valor de b é", b) 
 
 //exercicio 3
-let primeiroNumero = prompt("Digite um numero:")
-let segundoNumero = prompt("Digite outro numero:")
-let primeiroNumeroNumber = Number(primeiroNumero)
-let segundoNumeronumber = Number(segundoNumero)
 
-let soma = primeiroNumeroNumber + segundoNumeronumber
-let multiplicacao = primeiroNumeroNumber * segundoNumeronumber
+let primeiroNumeroResteste = Number(prompt("qual o primeiro numero: "))
+let segundoNumeroReteste = Number(prompt("qual o segundo numero: "))
 
-console.log(soma)
-console.log(multiplicacao)
+let somaReteste = primeiroNumeroResteste + segundoNumeroReteste
+let multPli = primeiroNumeroResteste * segundoNumeroReteste
+
+console.log("O primeiro número somado ao segundo número resulta em:", somaReteste)
+console.log("O primeiro número multiplicado pelo segundo número resulta em:", multPli)
+
+
+const mySpace = {
+    nome: "roberval",
+    idade: 24,
+    email: "roberval@gmail.com"
+}
+
+const acessar = mySpace.idade;

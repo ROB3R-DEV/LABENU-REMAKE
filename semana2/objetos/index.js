@@ -83,3 +83,5 @@ inserindoNoCarrinho(fruta3)
 //d)
 carrinho.push(fruta1, fruta2, fruta3)
 console.log(carrinho)
+
+

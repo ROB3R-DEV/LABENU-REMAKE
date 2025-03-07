@@ -12,7 +12,7 @@
 //1.
 const nome = prompt("Qual o seu nome?")
 const idadeMelhorAmigo = Number(prompt("Qual a idade do seu melhor amigo(a)"))
-const minhaIdade = 22
+const IdadeUsuario = Number(prompt("e qual a sua idade?"))
 console.log("Sua idade é maior do que a do seu melhor amigo?", minhaIdade>idadeMelhorAmigo )
 console.log(minhaIdade-idadeMelhorAmigo)
 
@@ -40,3 +40,5 @@ console.log("O primeiro numero é maior que segundo?", numeroUm>numeroDois)
 console.log("O primeiro numero é igual ao segundo?", numeroUm===numeroDois)
 console.log("O primeiro numero é divisível pelo segundo?", numeroUm%numeroDois===0)
 console.log("O segundo numero é divisível pelo primeiro?", numeroDois%numeroUm===0)
+
+
